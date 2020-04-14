@@ -8,7 +8,8 @@ end
 
 def input_to_index(user_input)
   user_input = gets.strip
-  (input - 1).to_i 
+  new_user_input = user_input.to_i
+  
 end
   
   
