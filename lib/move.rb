@@ -14,6 +14,8 @@ end
   
 def move(board, new_user_input, character = "X")
   board[new_user_input] = character
-  
+  return board
+end
+
   
   
