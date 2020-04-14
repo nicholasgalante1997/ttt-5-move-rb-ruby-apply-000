@@ -17,6 +17,5 @@ def move(board, new_user_input, character)
   return board
 end
 
-move(board, 0, "X")
 
   
