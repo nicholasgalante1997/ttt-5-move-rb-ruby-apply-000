@@ -9,7 +9,7 @@ end
 def input_to_index(input)
   new new_user_input = input.to_i 
   new_user_input -= 1
-  return index
+  return new_user_input
 end
   
 def move(board, new_user_input, character = "X")
